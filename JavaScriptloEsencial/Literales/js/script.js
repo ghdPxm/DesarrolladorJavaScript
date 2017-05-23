@@ -3,7 +3,7 @@ document.getElementById("numerico2").innerHTML = 23.4;
 document.getElementById("numerico3").innerHTML = 556e2;
 
 document.getElementById("cadena1").innerHTML = "Maria Perez";
-document.getElementById("cadena1").innerHTML = "Maria Perez";
+document.getElementById("cadena2").innerHTML = 'Como estas?';
 document.getElementById("cadena3").innerHTML = "Hola!";
 
 document.getElementById("expresion1").innerHTML = 3 + 5;
@@ -14,3 +14,5 @@ function miFuncion() {
   document.getElementById("funcion").innerHTML = "Mi funcion!!!";
 
 }
+
+  miFuncion();
