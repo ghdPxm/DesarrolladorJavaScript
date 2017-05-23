@@ -1,0 +1,61 @@
+//Definicion de variables
+var r;
+var precio;
+var apellido;
+var aPellido;
+var color;
+var descuento;
+var carro;
+var profesor;
+var numero1;
+var numero2;
+var w;
+var estatura;
+var pais;
+var pals;
+var animal;
+var deporte;
+var profesion;
+var numero3;
+var numero4;
+
+//Asignacion de valores a variables
+r = 54;
+precio =  7000;
+apellido = "Perez";
+aPellido = "Pardo";
+color = "Amarillo";
+carro = "Chevrolet";
+profesor = 'Gustavo De La Vega';
+numero1 = 89.434;
+numero2 = 37890;
+w = 200;
+estatura = 1.70;
+pais = "Colombia";
+pals = "Venezuela";
+animal = "Camello";
+deporte = "Futbol";
+profesion = "Abogado";
+numero3 = "1.654";
+numero4 = "84475";
+
+//Imprimir las variables
+document.getElementById('var1').innerHTML = r;
+document.getElementById('var2').innerHTML = precio;
+document.getElementById('var3').innerHTML = apellido;
+document.getElementById('var4').innerHTML = aPellido;
+document.getElementById('var5').innerHTML = color;
+document.getElementById('var6').innerHTML = descuento;
+document.getElementById('var7').innerHTML = carro;
+document.getElementById('var8').innerHTML = profesor;
+document.getElementById('var9').innerHTML = numero1;
+document.getElementById('var10').innerHTML = numero2;
+document.getElementById('var11').innerHTML = w;
+document.getElementById('var12').innerHTML = estatura;
+document.getElementById('var13').innerHTML = pais;
+document.getElementById('var14').innerHTML = pals;
+document.getElementById('var15').innerHTML = animal;
+document.getElementById('var16').innerHTML = deporte;
+document.getElementById('var17').innerHTML = profesion;
+document.getElementById('var18').innerHTML = numero3;
+document.getElementById('var19').innerHTML = numero4;
