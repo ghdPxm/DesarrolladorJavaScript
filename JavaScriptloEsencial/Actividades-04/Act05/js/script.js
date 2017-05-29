@@ -1,0 +1,12 @@
+document.getElementById('res1').innerHTML = 3 < 2;
+document.getElementById('res2').innerHTML = 43 > 3 ;
+document.getElementById('res3').innerHTML = 12 <= 4;
+document.getElementById('res4').innerHTML = 34 >= 5;
+document.getElementById('res5').innerHTML = "Leon" == "Leom";
+document.getElementById('res6').innerHTML = "AZUL" != "azul";
+document.getElementById('res7').innerHTML = 45 < 3;
+document.getElementById('res8').innerHTML = 1 > 9;
+document.getElementById('res9').innerHTML = 10 <= 6;
+document.getElementById('res10').innerHTML = 67 >= 9;
+document.getElementById('res11').innerHTML = "Pescado" == "Pezcado";
+document.getElementById('res12').innerHTML = "Asia" != "Hacia";
