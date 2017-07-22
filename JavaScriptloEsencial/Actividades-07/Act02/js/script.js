@@ -1,0 +1,21 @@
+var a = "El que busca la verdad corre el riesgo de encontrarla";
+var b = 32534;
+var c = ["Lunes", "Martes", "Miercoles"];
+var d = 45>56;
+var e = 345<90;
+var f =  12.55;
+var g = "Pienso luego existo";
+var h = 32423;
+var i = 9.629;
+var j = "pez" != "pes";
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(g);
+console.log(h);
+console.log(i);
+console.log(j);
