@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad - Hoja de vida simple</title>
+  </head>
+  <body onload="mensajeBienvenida()">
+  <h1>Hoja de vida</h1>
+  <form class="" action="index.html" method="post" onsubmit="enviar()" onreset="restablecer()">
+    <h2>Informacion personal</h2>
+    <label for="nombres">Nombres:</label>
+    <input type="text" name="nombres" value="" id="textNombre" onchange="aMayusNombre()"><br>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" name="apellidos" value="" id="textApellidos" onchange="aMayusApellidos()"><br>
+    <label for="direccion">Direccion:</label>
+    <input type="text" name="direccion" value=""><br>
+    <label for="edad">Edad:</label>
+    <input type="text" name="edad" value=""><br>
+    <label for="fecha-nac">Fecha de Nacimiento:</label>
+    <input type="date" name="fecha-nac" value=""><br>
+    <label for="lugar-nac">Lugar de Nacimiento:</label>
+    <input type="text" name="lugar-nac" value=""><br>
+    <label for="estado-civil">Estado Civil:</label>
+    <input type="text" name="estado-civil" value=""><br>
+    <h2>Informacion academica</h2>
+    <label for="universidad">Universidad:</label>
+    <input type="text" name="universidad" value=""><br>
+    <label for="profesion">Profesion:</label>
+    <input type="text" name="profesion" value=""><br>
+    <label for="observaciones">Observaciones:</label><br>
+    <textarea name="observaciones" rows="8" cols="80" onselect="seleccionTexto()">Observaciones</textarea><br>
+    <input type="submit" name="btnEnviar" value="Enviar">
+    <input type="reset" name="btnReset" value="Restablecer">
+  </form>
+<script type="text/javascript" src="js/script.js">
+
+</script>
+  </body>
+</html>
