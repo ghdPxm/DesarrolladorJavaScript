@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="vienvenida()">
+    <header id="encabezado">
+      <h1>CONALEP 158</h1>
+    </header>
+    <section id="contenedor">
+      <article class="">
+        <h2>FORMULARIO DE ESTUDIANTES</h2>
+        <form class="" action="index.html" method="post">
+
+
+        <table id="datos" >
+          <tr>
+            <td><label for="codigo">* Código:</label></td>
+            <td><input type="text" name="codigo" id="codigo" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="nombres">* Nombres:</label></td>
+            <td><input type="text" name="nombres" id="nombres" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="apellidos">* Apellidos:</label></td>
+            <td><input type="text" name="apellidos" id="apellidos" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="identificacion">* Identificacion:</label></td>
+            <td><input type="text" name="identificacion" id="identificacion" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="genero">* Genero:</label></td>
+            <td>
+              <select class="" name="genero" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)">
+                <option value="">- Seleccione Genero -</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="fecha-nac">* Fecha de nacimiento:</label></td>
+            <td><input type="date" name="fecha-nac" id="fecha-nac" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="email">* Emial:</label></td>
+            <td><input type="text" name="email" id="email" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="telefono">* Telefono:</label></td>
+            <td><input type="text" name="telefono" id="telefono" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="direccion">* Direccion:</label></td>
+            <td><input type="text" name="direccion" id="direccion" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></td>
+          </tr>
+          <tr>
+            <td><label for="observaciones">Observaciones:</label></td>
+            <td><textarea name="observaciones" rows="3" cols="23" onfocus="evento_onfocus(this)" onblur="evento_onblur(this)"></textarea></td>
+          </tr>
+          <tr>
+            <td>* Campos obligatorios</td>
+          </tr>
+          <tr>
+            <td><input type="submit" name="btnEnviar" value="Enviar" onclick="evento_onclick()"></td>
+          </tr>
+        </table>
+        </form>
+      </article>
+    </section>
+  </body>
+  <script type="text/javascript" src="js/script.js">
+
+  </script>
+</html>
