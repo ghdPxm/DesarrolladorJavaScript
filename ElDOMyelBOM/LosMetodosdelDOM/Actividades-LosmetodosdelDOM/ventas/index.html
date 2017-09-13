@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad uso de metodos js</title>
+  </head>
+  <body>
+    <h2>Nota de venta</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camisa</td>
+          <td><input type="text" name="precio" value="300" id="precio-01" readonly></td>
+          <td><input type="text" name="cantidad" value="" id="cantidad-01" ></td>
+          <td><input type="text" name="subtotal" value="" id="subtotal-01" readonly></td>
+        </tr>
+        <tr>
+          <td>Gorra</td>
+          <td><input type="text" name="precio" value="500" id="precio-02" readonly></td>
+          <td><input type="text" name="cantidad" value="" id="cantidad-02" ></td>
+          <td><input type="text" name="subtotal" value="" id="subtotal-02" readonly></td>
+        </tr>
+        <tr>
+          <td>Zapatos</td>
+          <td><input type="text" name="precio" value="600" id="precio-03" readonly></td>
+          <td><input type="text" name="cantidad" value="" id="cantidad-03" ></td>
+          <td><input type="text" name="subtotal" value="" id="subtotal-03" readonly></td>
+        </tr>
+        <tr>
+          <td>Pantalon</td>
+          <td><input type="text" name="precio" value="800" id="precio-04" readonly ></td>
+          <td><input type="text" name="cantidad" value="" id="cantidad-04" ></td>
+          <td><input type="text" name="subtotal" value="" id="subtotal-04" readonly ></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td >Total Compra:</td>
+          <td><input type="text" name="totalventa" id="totalventa" value="" readonly></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td ><input type="button" name="btnCalculaSub" value="Calcular SubTotal" onclick="calcularSubtotal()"></td>
+          <td><input type="button" name="btnCalculaTotal" value="Calcular Total" onclick="calcularTotal()"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script type="text/javascript" src="js/script.js">
+
+  </script>
+</html>
