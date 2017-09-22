@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad uso de EventListener con funcion fuera de la definicion</title>
+  </head>
+  <body>
+    <div id="miDiv">
+      Mi Div!!!
+    </div>
+  </body>
+  <script type="text/javascript">
+    var elemento = document.getElementById("miDiv");
+    elemento.addEventListener("click", cambiarDiv);
+
+    function cambiarDiv() {
+      elemento.style.width = "400px";
+      elemento.style.heght = "400px";
+      elemento.style.backgroudColor = "green";
+      elemento.style.fontSize = "xx-large";
+    }
+  </script>
+</html>

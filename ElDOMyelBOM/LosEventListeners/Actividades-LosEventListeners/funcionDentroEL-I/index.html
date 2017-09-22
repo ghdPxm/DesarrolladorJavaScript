@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad EventListener con funcion dentro</title>
+  </head>
+  <body>
+    <h1 id="miEnca">Mi encabezado h1!!!</h1>
+  </body>
+  <script type="text/javascript">
+  var elemento = document.getElementById("miEnca");
+
+    elemento.addEventListener("click", function () {
+      elemento.innerHTML = "Encabezado H1 cambiado!!!";        
+    });
+  </script>
+</html>

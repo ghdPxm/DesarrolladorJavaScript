@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eventos simultaneos</title>
+  </head>
+  <body>
+    <input id="btnEventos" type="button" name="" value="Probar Eventos">
+  </body>
+  <script type="text/javascript">
+    var elemento = document.getElementById("btnEventos");
+
+    elemento.addEventListener("click", function () {
+      alert("Estamos en el evento click");
+    });
+
+    elemento.addEventListener("mouseover", function () {
+      alert("Estamos en el evento mouseover");
+    });
+
+  </script>
+</html>

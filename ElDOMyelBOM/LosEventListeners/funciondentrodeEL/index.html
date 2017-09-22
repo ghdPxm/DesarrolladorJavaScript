@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uso del manejador eventListener con la funcion dentro</title>
+  </head>
+  <body>
+    <input id="btn1" type="button" name="" value="Mostrar Alert">
+  </body>
+  <script type="text/javascript">
+    //Funcion dentro del manejador de eventos
+    document.getElementById("btn1").addEventListener("click", function(){
+      document.body.style.backgroundColor = "orange";
+      alert("EventListener con funcion dentro...");      
+    });
+  </script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uso del manejador con funciones anidadas</title>
+  </head>
+  <body>
+    <input type="button" id="btnSaludar" name="" value="Saludar">
+  </body>
+  <script type="text/javascript">
+    var nombre = "Gerardo Hernandez";
+    var estatura = 1.85;
+
+    document.getElementById("btnSaludar").addEventListener("click", function () {
+      saludar(nombre, estatura);
+    });
+
+    function saludar(nombre, estatura) {
+      alert("Hola " + nombre + "tu mides " + estatura + "Mts");
+    }
+  </script>
+</html>

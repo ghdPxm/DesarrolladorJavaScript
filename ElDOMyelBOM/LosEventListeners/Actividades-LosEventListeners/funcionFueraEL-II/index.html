@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad uso de EventListener con evento click & blur</title>
+  </head>
+  <body>
+    <input type="text" id="miInput" name="" value="">
+  </body>
+  <script type="text/javascript">
+    var elemento =  document.getElementById("miInput");
+
+    elemento.addEventListener("click", cambiar1);
+    elemento.addEventListener("blur", cambiar2);
+
+    function cambiar1() {
+      elemento.style.width = "150px";
+      elemento.style.height = "50px";
+      elemento.style.fontSize = "18px";
+    }
+
+    function cambiar2() {
+      elemento.style.color = "orange";
+      elemento.style.backgroundColor = "blue";
+    }
+
+  </script>
+</html>
