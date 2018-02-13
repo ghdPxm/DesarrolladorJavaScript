@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Leer nodo hermano anterior con previousSilbing()</title>
+  </head>
+  <body>
+    <div id="miDiv">
+      <h1>Encabezado 1</h1>
+      <p id="p1">parrafo 1</p>
+      <input type="text" name="" value="">
+    </div><br>
+    <input type="button" id="btnNodoAnterior" onclick="nodoHermanoAnterior()" name="" value="nodo hermano">
+    <p id="mensaje"></p>
+  </body>
+  <script type="text/javascript">
+    function nodoHermanoAnterior() {
+      var texto = "";
+      var parrafo = document.getElementById("p1");
+      var mensaje = document.getElementById("mensaje");
+      /*Se utiliza la propiedad previousSilbing de elemento parrafo
+      con id p1 para obtener el Anterior nodo hermano con su respectivo
+      nombre para mostrarlo en el elemento p con id mensaje
+      */
+      mensaje.innerHTML = "Anterior nodo hermano de elemento parrafo " + parrafo.previousSibling.nodeName;
+    }
+  </script>
+</html>

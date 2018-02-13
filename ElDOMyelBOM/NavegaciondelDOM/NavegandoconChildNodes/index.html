@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uso de childNodes </title>
+  </head>
+  <body>
+    <h3 id="texto1">Navegando entre nodos</h3>
+    <p id="texto2">Hola mundo</p>
+  </body>
+  <script type="text/javascript">
+    var cambiarTexto =  document.getElementById("texto1").childNodes[0].nodeValue;
+    document.getElementById("texto2").innerHTML = cambiarTexto;
+  </script>
+</html>

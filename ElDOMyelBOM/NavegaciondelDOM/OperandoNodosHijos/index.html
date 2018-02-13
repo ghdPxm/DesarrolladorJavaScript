@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Navegando por los nodos hijos</title>
+  </head>
+  <body>
+    <div class="">
+      <p>Parrafo uno</p>
+      <p>Parrafo dos</p>
+      <p>Parrafo tres</p>
+      <h5>fin</h5>
+      <img src="" alt="">
+    </div>
+    <input type="button" id="btnMesaje" name="" value="Nodos hijos">
+    <p id="mensaje"></p>
+  </body>
+  <script type="text/javascript">
+    function nodosHijos() {
+      var texto="";
+
+      var div = document.getElementsByTagName("div")[0];
+      //Recorremos el arreglo de nodos hijos que nos devuelve la propiedad childNodes del elemento Div
+      for (var i = 0; i < div.childNodes.length; i++) {
+        //Colocamos el nombre de los nodos hijos a la variable texto
+        texto += div.childNodes[i].nodeName+"<br>";
+      }
+      document.getElementById("mensaje").innerHTML = texto;
+    }
+
+    document.getElementById("btnMesaje").addEventListener("click", function () {
+      nodosHijos();
+    });
+  </script>
+</html>
